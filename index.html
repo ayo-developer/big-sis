@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff0f6">
+
+    <meta name="description" content="A heartfelt appreciation website dedicated to the wonderful Miss Bam.">
+
+    <title>For Miss Bam 🌹 | A Little World of Appreciation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="no-scroll">
+
+    <!-- OPENING SURPRISE -->
+    <div class="welcome-screen" id="welcomeScreen">
+
+        <div class="welcome-stars" aria-hidden="true">
+            ✦ ♡ ✧ ♥ ✦
+        </div>
+
+        <div class="welcome-rose" aria-hidden="true">🌹</div>
+
+        <p class="welcome-eyebrow">
+            A LITTLE SURPRISE MADE WITH LOVE
+        </p>
+
+        <h1>
+            For My Wonderful
+            <span>Miss Bam</span> ♡
+        </h1>
+
+        <p class="welcome-message">
+            Some people make life more beautiful simply by
+            being who they are. Some teach us lessons that
+            remain with us long after the classroom.
+            You are one of those special people.
+        </p>
+
+        <p class="welcome-question">
+            I made a little corner of the world just for you.
+            <br>
+            Are you ready to open it? 💗
+        </p>
+
+        <button class="open-surprise" id="openSurprise" type="button">
+            Open Your Surprise <span aria-hidden="true">♡</span>
+        </button>
+
+        <p class="welcome-footer">
+            Made with gratitude, admiration, and so much love. ✨
+        </p>
+
+    </div>
+
+
+    <!-- BACKGROUND DECORATIONS -->
+    <div class="glow glow-one" aria-hidden="true"></div>
+    <div class="glow glow-two" aria-hidden="true"></div>
+
+    <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+
+    <!-- BACKGROUND MUSIC -->
+    <audio id="backgroundMusic" loop preload="auto">
+        <source src="assets/background-music.mp3" type="audio/mpeg">
+        Your browser does not support audio playback.
+    </audio>
+
+
+    <!-- MAIN WEBSITE -->
+    <main class="website-content" id="websiteContent" hidden inert>
+
+        <!-- NAVIGATION -->
+        <header class="navbar">
+
+            <a href="#home" class="logo">
+                <span aria-hidden="true">♡</span>
+                For Miss Bam
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About You</a>
+                <a href="#moments">Beautiful Moments</a>
+                <a href="#letter">My Letter</a>
+                <a href="#finalMessage">A Final Note</a>
+            </nav>
+
+        </header>
+
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <p class="welcome-eyebrow">
+                    A SMALL TRIBUTE TO SOMEONE EXTRAORDINARY
+                </p>
+
+                <h1>
+                    To Someone Who Makes
+                    <span>Life More Beautiful</span>
+                </h1>
+
+                <p class="hero-description">
+                    Dear Miss Bam, this little website is a reminder
+                    that your kindness matters, your guidance is
+                    appreciated, and the beautiful difference you
+                    make in people's lives does not go unnoticed.
+                </p>
+
+                <a href="#letter" class="hero-button">
+                    Read My Letter ♡
+                </a>
+
+            </div>
+
+            <div class="hero-decoration" aria-hidden="true">
+                <span>🌷</span>
+                <span>💗</span>
+                <span>✨</span>
+            </div>
+
+        </section>
+
+
+        <!-- APPRECIATION SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+                <p class="welcome-eyebrow">A FEW WORDS FROM MY HEART</p>
+
+                <h2>
+                    You Are Truly
+                    <span>Appreciated</span>
+                </h2>
+
+                <p>
+                    Not everyone gets to meet someone whose
+                    encouragement makes the journey a little easier.
+                    I am grateful that I got to know you.
+                </p>
+            </div>
+
+            <div class="appreciation-grid">
+
+                <article class="appreciation-card reveal">
+                    <div class="card-icon" aria-hidden="true">🌸</div>
+
+                    <h3>Your Kindness</h3>
+
+                    <p>
+                        Your kindness is a beautiful reminder that
+                        even the smallest gestures can brighten
+                        someone's day and remain in their memory.
+                    </p>
+                </article>
+
+                <article class="appreciation-card reveal">
+                    <div class="card-icon" aria-hidden="true">✨</div>
+
+                    <h3>Your Guidance</h3>
+
+                    <p>
+                        Thank you for sharing your knowledge,
+                        giving direction, and helping others grow.
+                        The lessons you teach reach beyond books
+                        and classrooms.
+                    </p>
+                </article>
+
+                <article class="appreciation-card reveal">
+                    <div class="card-icon" aria-hidden="true">💗</div>
+
+                    <h3>Your Beautiful Heart</h3>
+
+                    <p>
+                        Your patience, warmth, and encouragement
+                        make you someone worth celebrating.
+                        I hope life gives you the same kindness
+                        you give to others.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PHOTO GALLERY -->
+        <section class="section moments-section" id="moments">
+
+            <div class="section-heading">
+                <p class="welcome-eyebrow">LITTLE PIECES OF A BEAUTIFUL STORY</p>
+
+                <h2>
+                    Beautiful <span>Memories</span>
+                </h2>
+
+                <p>
+                    Every picture holds a moment, and every moment
+                    is another reason to appreciate you.
+                </p>
+            </div>
+
+            <div class="photo-gallery">
+
+                <figure class="gallery-item reveal">
+                    <img src="assets/miss-bam-1.jpg" alt="A beautiful memory of Miss Bam" loading="lazy">
+
+                    <figcaption>
+                        A moment worth remembering 🌷
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img src="assets/miss-bam-2.jpg" alt="Another cherished memory of Miss Bam" loading="lazy">
+
+                    <figcaption>
+                        A beautiful person, a beautiful memory 💗
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item reveal">
+                    <img src="assets/miss-bam-3.jpg" alt="A special picture of Miss Bam" loading="lazy">
+
+                    <figcaption>
+                        Always appreciated, always remembered ✨
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- VIDEO SECTION -->
+        <section class="section video-section">
+
+            <div class="section-heading">
+                <p class="welcome-eyebrow">A MOMENT TO TREASURE</p>
+
+                <h2>
+                    A Little <span>Memory</span>
+                </h2>
+
+                <p>
+                    Some moments deserve to be kept close
+                    and remembered with a smile.
+                </p>
+            </div>
+
+            <div class="video-container reveal">
+                <video id="missBamVideo" controls preload="metadata" playsinline poster="assets/miss-bam-1.jpg">
+                    <source src="assets/miss-bam-video.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+        </section>
+
+
+        <!-- HEARTFELT LETTER -->
+        <section class="section letter-section" id="letter">
+
+            <div class="letter-card heartfelt-letter reveal">
+
+                <div class="letter-decoration" aria-hidden="true">
+                    🌹 ✨ 🌷
+                </div>
+
+                <p class="letter-label">
+                    A LETTER FROM THE HEART
+                </p>
+
+                <h2>
+                    Dear <span>Miss Bam</span>,
+                </h2>
+
+                <div class="letter-body typewriter-text" id="heartfeltLetter">
+
+                    <p>
+                        Sometimes, words feel too small for the gratitude
+                        the heart carries. That is how I feel whenever
+                        I try to explain how much your kindness and
+                        guidance mean to me.
+                    </p>
+
+                    <p>
+                        You have been more than an instructor. You have
+                        been a source of encouragement, a beautiful
+                        example of patience, and a reminder that one
+                        person's kindness can make another person's
+                        journey brighter.
+                    </p>
+
+                    <p>
+                        Perhaps you may never fully realise how much
+                        the little things you do matter. Your words,
+                        your support, your willingness to teach, and
+                        the warmth you bring into a room can leave a
+                        lasting mark on someone's heart. You have
+                        certainly left one on mine.
+                    </p>
+
+                    <p>
+                        If I could give you one gift, it would be the
+                        ability to see yourself through the eyes of
+                        the people you inspire. You would see someone
+                        precious, appreciated, admired, and worthy
+                        of every beautiful thing life has to offer.
+                    </p>
+
+                    <p>
+                        Thank you for being a beautiful part of my
+                        journey, Miss Bam. May life return your
+                        kindness to you in countless ways. May your
+                        days be filled with peace, laughter, answered
+                        prayers, and the kind of happiness that
+                        reaches deep into your heart.
+                    </p>
+
+                    <p>
+                        No matter how far life takes me, I will always
+                        be grateful that I had the opportunity to learn
+                        from you and know you. You hold a special place
+                        in my heart, and that appreciation is something
+                        I will always carry.
+                    </p>
+
+                </div>
+
+                <p class="letter-signature">
+                    With all my love, respect, and heartfelt appreciation,
+                    <br>
+                    <strong>For my wonderful Miss Bam. 💗</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL MESSAGE -->
+        <section class="section final-section" id="finalMessage">
+
+            <div class="final-card reveal">
+
+                <div class="final-heart" aria-hidden="true">💖</div>
+
+                <p class="welcome-eyebrow">
+                    BEFORE YOU GO...
+                </p>
+
+                <h2>
+                    One Last Thing,
+                    <span>Miss Bam</span>
+                </h2>
+
+                <p>
+                    I hope you never forget that you are appreciated
+                    more than words can explain. The goodness you
+                    share with others is meaningful, and the lessons
+                    you teach can live in people's hearts for years.
+                </p>
+
+                <p>
+                    May your future be filled with beautiful
+                    opportunities, genuine happiness, peace of mind,
+                    good health, and people who celebrate you as
+                    wholeheartedly as you deserve.
+                </p>
+
+                <button class="surprise-button" id="surpriseButton" type="button">
+                    Open One Last Message 💌
+                </button>
+
+                <div class="final-message-content" id="finalMessageContent" hidden>
+                    <p>
+                        Miss Bam, if this little website could give
+                        you even one smile, then it has done something
+                        beautiful. Thank you for being part of my
+                        story. You are valued, you are celebrated,
+                        and you will always be remembered with
+                        gratitude. 🌹💗
+                    </p>
+
+                    <div class="final-signature">
+                        Made especially for you, with love. ♡
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>
+                Made with ♡, gratitude, and a little bit of magic
+                for Miss Bam.
+            </p>
+
+            <p class="footer-small">
+                Some people leave beautiful footprints on our hearts. 🌷
+            </p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
